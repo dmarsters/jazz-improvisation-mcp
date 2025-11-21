@@ -1,0 +1,177 @@
+---
+# JAZZ IMPROVISATION INTENTIONALITY REASONING
+# Core Question: Why does a jazz solo feel like *knowledge being revealed*?
+# Framework: Temporal sensory revelation through established grammar
+
+# FOUNDATIONAL PREMISE
+foundational_principle:
+  statement: "Jazz improvisation is a sensory epistemology—the listener acquires harmonic knowledge through structured temporal reveal"
+  mechanism: "Expert establishes constraint (head/harmony), then deforms it intelligently, then returns—listener learns by experiencing the constraint, its manipulation, and its resolution"
+  differs_from: "Linear explanation because it's *embodied knowledge*—the listener doesn't just understand the harmony, they *feel* how it constrains and enables"
+  temporal_requirement: "This can ONLY work through time. Harmonic knowledge isn't visual or spatial—it's temporal. You must experience the constraint, then its variation, then its resolution"
+
+# PHASE 1: STATEMENT (Bars 1-8)
+# Epistemic Role: Establishing the Harmonic Foundation as Legible Constraint
+phase_1_statement:
+  narrative_role: "The listener acquires the harmonic roadmap"
+  sensory_intention: "Clarity entering"
+  
+  what_happens_musically:
+    - "The head is played relatively straight—minimal harmonic reharmonization"
+    - "Melody is singularized—one clear voice"
+    - "Pacing is on or slightly behind the beat—legible time feel"
+    - "Rests are present but not excessive—establish groove"
+    - "Note density is low to moderate—room for listening"
+  
+  why_this_works_epistemically:
+    principle_1_establish_constraint:
+      statement: "The listener must first understand the *constraint* before variation becomes meaningful"
+      mechanism: "By playing the head relatively straight, the improviser teaches: here is what we're working with. These are the chord changes. This is the key center. This is the melodic shape."
+      sensory_experience: "Clarity. Recognition. 'I know where we are.'"
+      monk_example: "Round Midnight opening—Monk states the angular chromatic movement plainly, establishing that dissonance IS the harmonic truth"
+      
+    principle_2_establish_time_feel:
+      statement: "The listener's body synchronizes to the temporal grid"
+      mechanism: "By establishing a clear, graspable pulse in statement, the improviser creates a baseline. Later deformations (behind-the-beat playing, rubato) will *feel like deformation* because they reference this baseline"
+      sensory_experience: "Groove. The body settles into expectation of temporal regularity"
+      monk_example: "Monk's behind-the-beat approach only works because he established *what on-the-beat would sound like* first"
+      
+    principle_3_build_trust:
+      statement: "The listener trusts the improviser because clarity signals competence"
+      mechanism: "Legible statement = 'this person knows the structure deeply enough to state it clearly.' This trust enables the listener to follow more complex explorations later"
+      sensory_experience: "Safety. Permission to be surprised"
+
+# PHASE 2: DEVELOPMENT (Bars 9-N, typically longest section)
+# Epistemic Role: Exploring the Constraint—Showing What's Possible Within Grammar
+phase_2_development:
+  narrative_role: "The listener experiences mastery of the constraint"
+  sensory_intention: "Complexity revealed as coherent, not chaotic"
+  
+  what_happens_musically:
+    - "Harmonic reharmonization begins—tritone subs, upper extensions, chromatic approach"
+    - "Note density increases—scalar runs, arpeggio exploration, harmonic density"
+    - "Rhythmic subdivision increases—faster rhythmic figures, polyrhythmic interplay"
+    - "Pacing deforms—behind-the-beat displacement, rubato, playing with time"
+    - "Rests become *strategic*—silence as punctuation and revelation"
+    - "Dissonance emerges as intentional—not resolved immediately, but explored"
+  
+  why_this_works_epistemically:
+    principle_1_constraint_enables_variation:
+      statement: "Within established structure, maximum variation is possible"
+      mechanism: "The harmonic foundation (established in statement) is now the *floor*, not the ceiling. The improviser explores: 'what can I do within this constraint?' The constraint doesn't limit—it enables."
+      sensory_experience: "Excitement. Mastery accumulating. 'I see what's possible here.'"
+      monk_example: "Evidence—rapid harmonic rhythm (dense constraint). Monk's reharmonization navigates this precisely. The constraint enables his mastery to be *visible*"
+      
+    principle_2_dissonance_as_revelation:
+      statement: "Harmonic tension is not smoothed but *revealed as intentional*"
+      mechanism: "By playing tritone substitutions, chromatic clusters, upper extensions, the improviser shows: 'here is deeper structure.' Dissonance is not error—it's discovery"
+      sensory_experience: "Surprise followed by understanding. 'Oh, I see—that's part of the harmonic truth'"
+      monk_principle: "Monk treats dissonance as compositional material. His tritone subs and cluster voicings aren't ornamental—they're *structural revelations*"
+      epistemological_function: "The listener learns that harmony has *depth*—upper extensions, chromatic relationships, tritone symmetries. Dissonance reveals this depth"
+      
+    principle_3_intensity_manages_cognitive_load:
+      statement: "Increasing note density, rhythmic complexity, and harmonic density are *calibrated* to remain legible"
+      mechanism: "This is where natural transformations matter: as harmonic_complexity increases, rest_space increases proportionally. High density is paired with strategic silence. This keeps complexity comprehensible."
+      sensory_experience: "Intensity without confusion. High density with legible structure"
+      monk_evidence: "Monk's busiest passages have the most deliberate rests. This is not contradiction—it's *intention*. Silence reveals complexity"
+      
+    principle_4_behind_the_beat_as_temporal_mastery:
+      statement: "Deforming the temporal grid shows deeper understanding of it"
+      mechanism: "By playing behind the beat (after establishing on-beat baseline), the improviser demonstrates: 'I know where the beat is so well I can play against it.' This is mastery—the constraint is internalized"
+      sensory_experience: "Swing. Time as malleable. Freedom within structure"
+      monk_principle: "Monk's idiosyncratic time feel—behind the beat, inside the form—sounds like he's playing against the music. But he's actually demonstrating total harmonic mastery. The deformation proves knowledge"
+
+# PHASE 3: RESOLUTION (Final phrase + head)
+# Epistemic Role: Integration—Showing Accumulated Mastery
+phase_3_resolution:
+  narrative_role: "The listener synthesizes all exploration back into clarity"
+  sensory_intention: "Mastery demonstrated through controlled return"
+  
+  what_happens_musically:
+    - "Intensity decreases—note density drops, rhythmic subdivision simplifies"
+    - "Harmonic complexity moderates—extensions resolve to simpler structures"
+    - "Pacing returns toward the beat—time feels grounded again"
+    - "Rests establish clarity—silence as punctuation of mastery"
+    - "Final statement of head (melody returns)"
+    - "Dissonance resolves—tension articulates, then resolves"
+  
+  why_this_works_epistemically:
+    principle_1_synthesis_not_abandonment:
+      statement: "Returning to the head is not regression—it's integration"
+      mechanism: "The listener has learned harmonic depth through development. Now, hearing the original head again, they hear it differently. The simple melody contains all the harmonic complexity explored. This is *synthesis*"
+      sensory_experience: "Recognition with new depth. 'I know this, but I understand it differently now'"
+      monk_example: "Round Midnight resolution—return to the angular opening, but now the listener knows the tritone substitutions, the chromatic depth. The simple statement is now complex"
+      
+    principle_2_mastery_through_restraint:
+      statement: "The final phrase demonstrates mastery precisely through *what's not played*"
+      mechanism: "By reducing density, the improviser shows: 'I could continue complex exploration, but I choose clarity. I've learned enough. I integrate.'"
+      sensory_experience: "Confidence. Control. Understanding"
+      monk_principle: "Monk's solos often end with surprising simplicity—a single note, a rest, a return to the head. This simplicity is *earned mastery*, not limitation"
+
+# NATURAL TEMPORAL REVELATION
+temporal_revelation_architecture:
+  why_time_is_essential:
+    statement: "Harmonic knowledge cannot be transmitted spatially or all-at-once"
+    reason: "Harmony is not a static object—it's a *relationship between tones through time*. You must experience the constraint, then its variation, then its resolution. Each requires duration"
+    
+  the_three_phases_as_epistemic_architecture:
+    phase_1: "Establish what-is: the constraint"
+    phase_2: "Explore what-could-be: variation within constraint"
+    phase_3: "Integrate what-was-learned: return with mastery"
+    
+    cannot_be_rearranged: "A solo that resolves, then develops, then states would fail epistemically. The listener wouldn't understand the constraint before seeing its variation"
+
+# MONK-SPECIFIC SENSORY EPISTEMOLOGY
+monk_sensory_epistemology:
+  monk_differs_because:
+    - "He treats the constraint (harmonic foundation) as compositional material, not limitation"
+    - "He uses dissonance not as tension-to-be-resolved but as *truth-to-be-revealed*"
+    - "He uses silence not as rest but as *structural element*"
+    - "He plays behind the beat not as stylistic flourish but as *temporal mastery demonstration*"
+  
+  what_this_means_for_sensory_experience:
+    statement_phase: "The head is already complex—angular chromatic movement. The constraint IS the content"
+    development_phase: "Exploring harmonic depth through reharmonization and cluster voicing. Dissonance is never smoothed. Silence is punctuation. Behind-the-beat pacing shows temporal mastery"
+    resolution_phase: "Return to head with earned understanding of its complexity. The 'simple' melody contains all the harmonic truth"
+
+# VISUAL-SENSORY BRIDGE
+visual_sensory_bridge:
+  why_visual_analogies_matter:
+    principle: "The three-phase temporal structure maps to visual revelation"
+  
+  statement_visual: "Sharp focus entering. Established baseline. Light in darkness. Clear edge definition"
+  why_it_maps: "Both establish clarity and reference point. Both create trust and foundation for what follows"
+  
+  development_visual: "Layering. Complexity emerging. Patterns visible within texture. Density increasing yet coherent"
+  why_it_maps: "Both increase complexity while maintaining legibility. Both show mastery through controlled variation. Both reveal structure within apparent chaos"
+  
+  resolution_visual: "Clarity restored. Complexity now resolved into pattern. Light reveals form. Pattern visible in total"
+  why_it_maps: "Both show mastery through return. Both synthesize complexity into understanding. Both feel *complete*"
+
+# MONK-SPECIFIC VISUAL INTENTION
+monk_visual_sensory_intention:
+  statement_phase_intent:
+    sonic: "Angular chromatic head—establish that dissonance IS the harmonic truth"
+    visual_equivalent: "Jagged, precise lines. Complexity visible from start. No softening. Sharp focus on structural truth"
+    
+  development_phase_intent:
+    sonic: "Explore dissonance through reharmonization and cluster voicing. Behind-the-beat pacing. Strategic silence"
+    visual_equivalent: "Dense layering with clear throughlines. Intensity without confusion. Silence as revelation"
+    
+  resolution_phase_intent:
+    sonic: "Return to angular head with earned understanding. Simplicity as mastery. Silence as punctuation"
+    visual_equivalent: "Clarity restored. Complex pattern now visible as unified whole. Precision and confidence"
+
+# INTENTIONALITY SUMMARY
+intentionality_summary:
+  core_insight: "Jazz improvisation is temporal epistemology—knowledge acquired through structured sensory experience"
+  
+  mechanism: "Three phases (statement→development→resolution) map to three epistemic stages (establish constraint, explore variation, integrate mastery)"
+  
+  sensory_vehicle: "Note density, rhythmic complexity, harmonic density, phrasing clarity, temporal pacing all calibrate to *reveal knowledge at optimal rate*"
+  
+  monk_signature: "Dissonance as truth, silence as structure, behind-the-beat as mastery, constraint as liberation"
+  
+  visual_analog: "How knowledge reveals through visual means maps to how it reveals through temporal sonic means"
+  
+  epistemological_consequence: "The listener doesn't just *understand* the harmony—they *feel* how it constrains and enables. They experience mastery as possibility-within-structure. This embodied knowledge is deeper than explanation"

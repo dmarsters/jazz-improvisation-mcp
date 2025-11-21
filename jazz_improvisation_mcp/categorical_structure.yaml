@@ -1,0 +1,228 @@
+---
+# JAZZ IMPROVISATION CATEGORICAL STRUCTURE
+# Core: Temporal revelation through established harmonic grammar
+# Anchor: Thelonious Monk (constraint-based innovation)
+
+# TYPES: Core ontological categories
+types:
+  harmonic_foundation:
+    description: "The chord progression as non-negotiable morphism constraining all variation"
+    instances:
+      - name: "Round Midnight"
+        complexity: "angular_chromatic"
+        key_center: "b_flat_minor"
+        characteristic: "chromatic approach tones, tritone substitutions"
+        monk_essence: true
+        
+      - name: "Evidence"
+        complexity: "bebop_dense"
+        key_center: "f_major"
+        characteristic: "rapid harmonic rhythm, requires precise navigation"
+        monk_essence: true
+        
+      - name: "Epistrophy"
+        complexity: "modal_repetition"
+        key_center: "e_flat_major"
+        characteristic: "vamp-like cycles enabling deep exploration"
+        monk_essence: true
+        
+      - name: "Ask Me Now"
+        complexity: "lyrical_simple"
+        key_center: "f_major"
+        characteristic: "sparse changes, melody-driven"
+        monk_essence: true
+
+  intensity_arc:
+    description: "How energy, density, and complexity evolve through the solo"
+    dimensions:
+      note_density:
+        range: [1, 10]
+        low: "sparse, single-note statements"
+        mid: "balanced note/rest ratio"
+        high: "rapid scalar runs, chord arpeggios"
+        monk_anchor: "Monk plays sparse—silence is structural"
+        
+      rhythmic_subdivision:
+        range: [1, 10]
+        low: "quarter/half note feel"
+        mid: "eighth note comping"
+        high: "sixteenth-note figures, polyrhythm"
+        monk_anchor: "Monk's time feel is idiosyncratic—behind beat, inside"
+        
+      harmonic_complexity:
+        range: [1, 10]
+        low: "root position, simple triads"
+        mid: "extensions, secondary dominants"
+        high: "upper extensions, reharmonization, chromatic substitution"
+        monk_anchor: "Monk rewrites harmony—tritone subs, cluster voicings"
+
+  phrasing_clarity:
+    description: "Legibility of melodic intent within harmonic saturation"
+    dimensions:
+      melodic_singularity:
+        range: [1, 10]
+        definition: "degree to which a single melody line dominates"
+        low: "harmonically layered, poly-melodic"
+        high: "single clear statement"
+        monk_anchor: "Monk's lines are *singular*—they cut through"
+        
+      rest_space:
+        range: [1, 10]
+        definition: "silence as structural tool"
+        low: "continuous sound"
+        high: "frequent pauses, space for listening"
+        monk_anchor: "Monk's silence is *intentional*—rest as revelation"
+        
+      sonic_texture:
+        range: [1, 10]
+        low: "clean, legible attack"
+        high: "cluster, dissonance, textural density"
+        monk_anchor: "Monk uses dissonance as structural element"
+
+  temporal_pacing:
+    description: "How time feels—interaction with established meter"
+    dimensions:
+      beat_relationship:
+        range: [1, 10]
+        definitions:
+          "1": "strict on-the-beat, metronome-like"
+          "5": "balanced phrasing over steady pulse"
+          "10": "rubato, behind-the-beat, time distortion"
+        monk_anchor: "Monk is famously behind the beat—time as compositional tool"
+        
+      phrase_length:
+        range: [1, 10]
+        low: "short, fragmented utterances"
+        mid: "4-8 bar phrases"
+        high: "long, sustained lines spanning changes"
+        monk_anchor: "Monk uses short, punchy phrases—architectural clarity"
+        
+      tension_cycle:
+        range: [1, 10]
+        low: "smooth, even emotional temperature"
+        high: "rapid tension/release cycles"
+        monk_anchor: "Monk creates dissonance then resolves—mathematical tension"
+
+# MORPHISMS: Relationships between types
+morphisms:
+  statement_development_resolution:
+    source: "temporal_structure"
+    target: "intensity_arc"
+    description: "The three-phase solo as intensity deformation"
+    
+    statement:
+      duration: "4-8 bars"
+      intensity_profile:
+        note_density: [2, 3]
+        rhythmic_subdivision: [2, 3]
+        harmonic_complexity: [1, 2]
+      intention: "Establish theme clarity—make the head legible"
+      monk_principle: "Begin with the composition itself, unadorned"
+      
+    development:
+      duration: "middle section (variable)"
+      intensity_profile:
+        note_density: [5, 8]
+        rhythmic_subdivision: [5, 8]
+        harmonic_complexity: [6, 9]
+      intention: "Explore through established grammar—push constraint"
+      monk_principle: "Reharmonize, displace, investigate—but stay legible"
+      
+    resolution:
+      duration: "final phrase + head"
+      intensity_profile:
+        note_density: [3, 6]
+        rhythmic_subdivision: [3, 6]
+        harmonic_complexity: [3, 5]
+      intention: "Return home with earned mastery—integration"
+      monk_principle: "Resolve to clarity—show what was learned"
+
+  harmony_to_melody:
+    source: "harmonic_foundation"
+    target: "phrasing_clarity"
+    description: "Chord changes constrain but enable melodic possibility"
+    commutative_principle: "The melody must always be navigating the harmony, not ignoring it"
+    monk_example: "Round Midnight—Monk's reharmonizations ARE the melody"
+
+  constraint_to_variation:
+    source: "harmonic_foundation"
+    target: "intensity_arc"
+    description: "Established grammar enables infinite variation"
+    mathematical_principle: "Within established structure, freedom maximizes"
+    monk_example: "Evidence—rapid harmonic rhythm forces precision, enables mastery"
+
+  clarity_through_restraint:
+    source: "temporal_pacing"
+    target: "phrasing_clarity"
+    description: "Silence and spacing create legibility"
+    monk_principle: "Rest is structural—empty space reveals intent"
+
+# NATURAL TRANSFORMATIONS: How one dimension scales with another
+natural_transformations:
+  harmonic_complexity_drives_phrasing_response:
+    when: "harmonic_foundation complexity increases"
+    then: "phrasing_clarity must increase (shorter phrases, more singularity, more rest)"
+    monk_evidence: "Epistrophy simple vamp enables long exploration; Evidence dense harmony requires punctuation"
+    
+  intensity_requires_clarity:
+    when: "intensity_arc increases"
+    then: "rest_space must increase proportionally (counterintuitively)"
+    principle: "Higher density requires silence to remain legible"
+    monk_evidence: "Monk's busiest passages have most deliberate rest"
+
+  temporal_displacement_needs_harmonic_anchor:
+    when: "beat_relationship moves away from 1 (toward behind-beat)"
+    then: "harmonic_clarity must increase—listener needs harmonic roadmap"
+    monk_principle: "Behind-the-beat phrasing requires crystal harmonic navigation"
+
+# COMMUTATIVE DIAGRAMS: Ensure coherence
+coherence_constraints:
+  diagram_1:
+    name: "Harmonic Foundation → Intensity Arc → Clarity"
+    principle: "More complex harmony requires balanced intensity & clear phrasing"
+    violation_example: "Dense harmony + high density + low clarity = incomprehensible"
+    monk_counter_example: "Dense harmony + controlled density + high clarity = Monk's mastery"
+
+  diagram_2:
+    name: "Pacing Deformation → Intensity Response"
+    principle: "Behind-the-beat playing requires even spacing/clarity to navigate"
+    monk_principle: "Monk's time is deformed but his phrasing is *architectural*"
+
+# MONK-SPECIFIC PRINCIPLES
+monk_anchor_principles:
+  constraint_as_liberation:
+    statement: "Monk treats harmonic constraint as compositional material, not limitation"
+    manifests_as: "reharmonization, tritone substitution, chromatic approach within changes"
+    
+  silence_as_structure:
+    statement: "Rests are not breaks but architectural elements"
+    manifests_as: "high rest_space in development, creates legibility despite complexity"
+    
+  rhythmic_displacement:
+    statement: "Behind-the-beat phrasing as fundamental approach"
+    manifests_as: "beat_relationship consistently 7-9, enables swing feel despite angular harmony"
+    
+  dissonance_as_truth:
+    statement: "Harmonic tension is never smoothed—it's revealed and resolved"
+    manifests_as: "high harmonic_complexity with intentional tritone/cluster voicing"
+
+# INTENTIONALITY BRIDGE (connects to sensory experience)
+sensory_bridge:
+  statement_phase:
+    how_it_feels: "Clarity entering—the listener acquires the harmonic roadmap"
+    visual_analog: "sharp focus, defined edge, established baseline"
+    
+  development_phase:
+    how_it_feels: "Exploration within constraint—tension building, mastery accumulating"
+    visual_analog: "layering, density increasing, pattern emerging from chaos"
+    
+  resolution_phase:
+    how_it_feels: "Return with earned knowledge—integration and mastery"
+    visual_analog: "clarity restored, complexity resolved, pattern now visible"
+
+# OLOG STRUCTURE SUMMARY
+olog_structure:
+  layer_1_types: "Harmonic Foundation, Intensity Arc, Phrasing Clarity, Temporal Pacing"
+  layer_2_morphisms: "Statement→Development→Resolution, Harmony→Melody, Constraint→Variation"
+  layer_3_natural_transformations: "How dimensions scale with each other"
+  coherence: "Commutative diagrams ensure harmonic complexity, intensity, and clarity align"
