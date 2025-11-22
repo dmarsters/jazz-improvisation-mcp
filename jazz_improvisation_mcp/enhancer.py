@@ -4,7 +4,7 @@ Transforms user intent into visual sensory parameters using olog specifications
 """
 
 from typing import Dict, List, Optional, Tuple
-from .olog_loader import JazzImprovisationOlog
+from olog_loader import JazzImprovisationOlog
 
 
 class JazzImprovisationEnhancer:
