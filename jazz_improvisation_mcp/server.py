@@ -25,7 +25,7 @@ except ImportError as e:
     raise
 
 # Initialize
-server = Server("jazz-improvisation-mcp")
+app = Server("jazz-improvisation-mcp")
 enhancer = JazzImprovisationEnhancer()
 
 # Tool implementations
@@ -75,7 +75,7 @@ def impl_get_monk_principles() -> dict:
                           for name, principle in principles.items()}}
 
 # Tool definitions
-@server.list_tools()
+@app.list_tools()
 async def list_tools() -> list[Tool]:
     return [
         Tool(name="enhance_prompt_with_jazz", description="Enhance an image generation prompt with jazz improvisation aesthetic.",
@@ -104,7 +104,7 @@ async def list_tools() -> list[Tool]:
              inputSchema={"type": "object", "properties": {}}),
     ]
 
-@server.call_tool()
+@app.call_tool()
 async def call_tool(name: str, arguments: dict) -> list[TextContent]:
     if name == "enhance_prompt_with_jazz":
         result = impl_enhance_prompt_with_jazz(**arguments)
