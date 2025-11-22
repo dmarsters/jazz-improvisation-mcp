@@ -8,8 +8,7 @@ aesthetic, using categorical structure and intentionality reasoning ologs.
 
 import json
 from mcp.server import Server
-from mcp.types import Tool, TextContent, ToolUseBlock
-import mcp.types as types
+from mcp.types import Tool, TextContent
 from typing import Optional
 
 from .olog_loader import JazzImprovisationOlog
