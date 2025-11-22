@@ -9,12 +9,12 @@ description = "Jazz improvisation structure MCP server - temporal revelation thr
 authors = [{name = "Dal", email = "dal@lushy.app"}]
 requires-python = ">=3.10"
 dependencies = [
-    "mcp>=0.1.0",
+    "fastmcp>=0.1.0",
     "pyyaml",
 ]
 
 [project.scripts]
-jazz-improvisation-mcp = "jazz_improvisation_mcp.server:run_server"
+jazz-improvisation-mcp = "jazz_improvisation_mcp.server:mcp"
 
 [project.urls]
 Repository = "https://github.com/dmarsters/jazz-improvisation-mcp"

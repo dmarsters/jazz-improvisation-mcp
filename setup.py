@@ -7,12 +7,13 @@ setup(
     author="Dal",
     packages=find_packages(),
     install_requires=[
-        "mcp>=0.1.0",
+        "fastmcp>=0.1.0",
+        "pyyaml",
     ],
     python_requires=">=3.10",
     entry_points={
         "console_scripts": [
-            "jazz-improvisation-mcp=jazz_improvisation_mcp.server:run_server",
+            "jazz-improvisation-mcp=jazz_improvisation_mcp.server:mcp",
         ],
     },
 )
