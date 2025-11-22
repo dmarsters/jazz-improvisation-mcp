@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=45", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "jazz-improvisation-mcp"
+version = "0.1.0"
+description = "Jazz improvisation structure MCP server - temporal revelation through established grammar"
+authors = [{name = "Dal", email = "dal@example.com"}]
+requires-python = ">=3.10"
+dependencies = [
+    "mcp>=0.1.0",
+    "pyyaml",
+]
+
+[project.scripts]
+jazz-improvisation-mcp = "jazz_improvisation_mcp.server:main"
+
+[project.urls]
+Repository = "https://github.com/dmarsters/jazz-improvisation-mcp"
