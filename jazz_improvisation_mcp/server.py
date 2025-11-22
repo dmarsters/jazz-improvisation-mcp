@@ -7,6 +7,12 @@ aesthetic, using categorical structure and intentionality reasoning ologs.
 """
 
 import json
+import sys
+from pathlib import Path
+
+# Add parent directory to path so imports work
+sys.path.insert(0, str(Path(__file__).parent.parent))
+
 from mcp.server import Server
 from mcp.types import Tool, TextContent
 from typing import Optional
@@ -250,7 +256,12 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
     else:
         return [TextContent(type="text", text=json.dumps({"error": f"Unknown tool: {name}"}))]
 
+def run_server():
+    """Entry point for console script"""
+    import asyncio
+    asyncio.run(server.run())
 
+    
 def main():
     """Run the MCP server"""
     import asyncio

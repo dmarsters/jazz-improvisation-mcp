@@ -12,7 +12,7 @@ setup(
     python_requires=">=3.10",
     entry_points={
         "console_scripts": [
-            "jazz-improvisation-mcp=jazz_improvisation_mcp.server:main",
+            "jazz-improvisation-mcp=jazz_improvisation_mcp.server:run_server",
         ],
     },
 )
