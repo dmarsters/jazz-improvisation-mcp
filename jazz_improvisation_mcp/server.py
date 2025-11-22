@@ -122,3 +122,5 @@ async def call_tool(name: str, arguments: dict) -> list[TextContent]:
         result = {"error": f"Unknown tool: {name}"}
     
     return [TextContent(type="text", text=json.dumps(result, indent=2))]
+
+
