@@ -11,8 +11,8 @@ from mcp.server import Server
 from mcp.types import Tool, TextContent
 from typing import Optional
 
-from .olog_loader import JazzImprovisationOlog
-from .enhancer import JazzImprovisationEnhancer
+from jazz_improvisation_mcp.olog_loader import JazzImprovisationOlog
+from jazz_improvisation_mcp.enhancer import JazzImprovisationEnhancer
 
 
 # Initialize server and tools
