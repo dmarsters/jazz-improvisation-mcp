@@ -4,8 +4,8 @@ Temporal revelation through established grammar - Monk-centered framework
 """
 
 from fastmcp import FastMCP
-from enhancer import JazzImprovisationEnhancer
-from olog_loader import JazzImprovisationOlog
+from jazz_improvisation_mcp.enhancer import JazzImprovisationEnhancer
+from jazz_improvisation_mcp.olog_loader import JazzImprovisationOlog
 
 # Initialize FastMCP server
 mcp = FastMCP("jazz-improvisation-mcp")
@@ -151,3 +151,6 @@ def get_monk_principles() -> dict:
             for name, principle in principles.items()
         }
     }
+
+if __name__ == "__main__":
+    mcp.run()
