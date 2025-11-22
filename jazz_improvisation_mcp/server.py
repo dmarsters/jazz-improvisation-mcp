@@ -4,12 +4,25 @@ Temporal revelation through established grammar - Monk-centered framework
 """
 
 import json
+import sys
+import yaml
+from pathlib import Path
 from mcp.server import Server
 from mcp.types import Tool, TextContent
 from typing import Optional
 
-from .olog_loader import JazzImprovisationOlog
-from .enhancer import JazzImprovisationEnhancer
+# Get the directory where this file is located
+CURRENT_DIR = Path(__file__).parent
+
+# Import from local modules directly
+sys.path.insert(0, str(CURRENT_DIR))
+
+try:
+    from olog_loader import JazzImprovisationOlog
+    from enhancer import JazzImprovisationEnhancer
+except ImportError as e:
+    print(f"Import error: {e}")
+    raise
 
 # Initialize
 server = Server("jazz-improvisation-mcp")
